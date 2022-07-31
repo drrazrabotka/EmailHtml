@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="60dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        tools:ignore="InvalidId,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        tools:ignore="InvalidId,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        tools:ignore="InvalidId,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/lower"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintTop_toBottomOf="@+id/body"
+        tools:ignore="InvalidId,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_shblon_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/button_shablon_fragment"
+        android:background="@xml/rounded_edittext"
+        app:layout_constraintTop_toBottomOf="@+id/lower"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

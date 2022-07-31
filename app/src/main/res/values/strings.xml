@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EmailHtml</string>
+    <string name="prompt_email">Login</string>
+    <string name="prompt_password">Password</string>
+    <string name="button_entry">Вход</string>
+    <string name="button_item">выбрать шаблон</string>
+    <string name="button_shablon_fragment">сохранить</string>
+    <string name="button_letter">отправить</string>
+    <string name="to_email">email адресс получателя</string>
+
+</resources>
